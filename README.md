@@ -22,5 +22,5 @@ Todo
 2.fix the unicode decode error // prevent it from accessing the non-decodable format 
 3.use json for results and storage
 4.add a option for storing history.txt
-</pre> 
-![screenshot][https://github.com/UmangX/crawler/blob/master/screenshot.png?raw=true]
+</pre>
+https://github.com/UmangX/crawler/blob/master/screenshot.png?
