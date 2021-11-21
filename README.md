@@ -1,5 +1,5 @@
 ## Crawler 
-
+<pre> 
 **Dependencies** 
 1.cat 
 2.find 
@@ -20,3 +20,4 @@ it will create a history.txt  with all the file present in the passed on directo
 1.create storage or display the highest number of occurances 
 2.fix the unicode decode error // prevent it from accessing the non-decodable format 
 3.use json for results and storage 
+</pre> 
