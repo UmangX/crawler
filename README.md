@@ -14,10 +14,12 @@
 
 **Steps**
 1.run the run.py  file and in the directory on the command line 
-it will create a history.txt  with all the file present in the passed on directory and that pipelines into test2.py which will return occurences of term provided 
+it will create a history.txt  with all the file present 
+history.txt isn't stored its removed at the end of process 
 
 **todo** 
 1.create storage or display the highest number of occurances 
 2.fix the unicode decode error // prevent it from accessing the non-decodable format 
-3.use json for results and storage 
+3.use json for results and storage
+4.add a option for storing history.txt
 </pre> 
