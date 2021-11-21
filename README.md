@@ -23,4 +23,4 @@ Todo
 3.use json for results and storage
 4.add a option for storing history.txt
 </pre> 
-![https://github.com/UmangX/crawler/blob/master/screenshot.png]
+![screenshot][https://github.com/UmangX/crawler/blob/master/screenshot.png]
