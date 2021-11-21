@@ -1,19 +1,22 @@
 ## Crawler 
 
 **Dependencies** 
-cat 
-find 
-python3 
-re //regular expression - python module 
-tested on linux system 
+1.cat 
+2.find 
+3.python3 
+4.re //regular expression 
+5.tested on linux system (archx64)
 
-used regex / regular expression for string lookup in the files 
+**Lookup methods**
+1.used regex / regular expression for string lookup in the files
+2.cat is used to pipeline the data to stdin into test2.py
+3.find is used for directory travesal and adding the file in history.txt 
 
 **Steps**
-run the run.py  file and in the directory on the command line 
+1.run the run.py  file and in the directory on the command line 
 it will create a history.txt  with all the file present in the passed on directory and that pipelines into test2.py which will return occurences of term provided 
 
 **todo** 
-create storage or display the highest number of occurances 
-fix the unicode decode error // prevent it from accessing the non-decodable format 
-use json for results and storage 
+1.create storage or display the highest number of occurances 
+2.fix the unicode decode error // prevent it from accessing the non-decodable format 
+3.use json for results and storage 
