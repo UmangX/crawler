@@ -1,11 +1,9 @@
 import os;
 import sys
+
 location = sys.argv[1];
 term = sys.argv[2];
-
-
 test_storage = [];
-
 if len(term) < 5:
    print("Search term too small try with more then 5 char")
    exit();
