@@ -13,7 +13,7 @@ file1 = open('history.txt', 'r')
 Lines = file1.readlines()
 
 def execute_locator(file):
-    data = os.popen("cat " + file +" | python3 ~/dev/crawler/test2.py " + term ).read();
+    data = os.popen("cat " + file +" | python3 test2.py " + term ).read();
     data = data.strip()
     if data != "Can't read the file\n0":
        test_storage.append(data);
